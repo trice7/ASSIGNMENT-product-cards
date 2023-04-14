@@ -1,3 +1,71 @@
 body {
-  background-color: aquamarine;
+  background-image: url('https://img.freepik.com/free-photo/rustic-wood-panel_53876-16245.jpg');
+}
+
+.wrapper{
+  width: 1000px;
+  margin: 0 auto;
+  
+}
+
+.row{
+  display:flex;
+  justify-content: space-around;
+  margin-bottom: 100px;
+  
+}
+
+.item{
+  border: 2px solid black;
+  padding: 10px;
+  margin: 0 20px;
+  background-image: url('https://media.istockphoto.com/id/519081836/photo/white-sand-background.jpg?s=170667a&w=0&k=20&c=7Qg0iAzdi1XhZf7ai5khpGujw2vNFsawnihVG_vPgBc=');
+  
+}
+
+header{
+  text-align: center;
+}
+
+.image{
+  display:flex;
+  justify-content: center;
+  border: 0 solid;
+  border-radius: 3px;
+}
+
+img{
+  width: 300px;
+  border: 0 solid;
+  border-radius: 3px;
+}
+
+.avail{
+  background-color: gray;
+  color: yellow;
+}
+
+.specs{
+  font-size: 15px;
+  text-align: left;
+  margin-bottom: -8px;
+}
+
+.dim{
+  font-size: 10px;
+  margin-bottom: -5px;
+}
+
+.foot{
+  font-size: 10px;
+  font-style: italic;
+}
+
+.cost{
+  font-size: 12px;
+  Margin-top: -10px;
+}
+
+.sec3{
+  border-top: 2px solid black;
 }
